@@ -20,10 +20,6 @@ public class SellerDaoJDBC implements SellerDao {
         this.conn = conn;
     }
 
-    public SellerDaoJDBC() {
-
-    }
-
     @Override
     public void insert(Seller obj) {
         PreparedStatement st = null;
